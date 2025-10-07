@@ -30,6 +30,8 @@ import tesla from './company/tesla.png';
 import carrent from './carrent.png';
 import tripguide from './tripguide.png';
 import recipe from './recipe.png';
+import homepage from './homepage.png';
+import memories_app from './memories_app.png';
 
 export {
   angular,
@@ -56,6 +58,8 @@ export {
   threejs,
   meta,
   recipe,
+  homepage,
+  memories_app,
   shopify,
   starbucks,
   tesla,

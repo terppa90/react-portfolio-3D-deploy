@@ -18,6 +18,8 @@ import {
   docker,
   meta,
   recipe,
+  homepage,
+  memories_app,
   starbucks,
   tesla,
   shopify,
@@ -81,14 +83,14 @@ const technologies = [
     name: 'React JS',
     icon: reactjs,
   },
-  {
-    name: 'Redux Toolkit',
-    icon: redux,
-  },
-  {
-    name: 'Tailwind CSS',
-    icon: tailwind,
-  },
+  // {
+  //   name: 'Redux Toolkit',
+  //   icon: redux,
+  // },
+  // {
+  //   name: 'Tailwind CSS',
+  //   icon: tailwind,
+  // },
   {
     name: 'Node JS',
     icon: nodejs,
@@ -97,18 +99,18 @@ const technologies = [
     name: 'MongoDB',
     icon: mongodb,
   },
-  {
-    name: 'Three JS',
-    icon: threejs,
-  },
+  // {
+  //   name: 'Three JS',
+  //   icon: threejs,
+  // },
   {
     name: 'git',
     icon: git,
   },
-  {
-    name: 'figma',
-    icon: figma,
-  },
+  // {
+  //   name: 'figma',
+  //   icon: figma,
+  // },
   {
     name: 'docker',
     icon: docker,
@@ -116,6 +118,22 @@ const technologies = [
 ];
 
 const educations = [
+  {
+    title: 'Full Stack & Cloud',
+    date: '2024',
+    company_name: 'Buutti Education',
+    icon: web,
+    iconBg: '#383E56',
+    points: [
+      'JavaScript',
+      'TypeScript',
+      'Front-End development using the React framework',
+      'Back-End development in the Node.js environment with the Express.js framework',
+      'Database development using PostgreSQL',
+      'Cloud service development on the Microsoft Azure platform',
+      'Using DevOps tools such as Git and Docker',
+    ],
+  },
   {
     title: 'Full-Stack Developer',
     date: '2023',
@@ -155,7 +173,7 @@ const educations = [
     points: ['C++', 'Blender', '3D-Modeling', 'Game-Engines'],
   },
   {
-    title: 'Vocational education in information and communication technology',
+    title: 'Vocational Education in Information and Communication Technology',
     date: '2011',
     company_name: 'Jämsä Vocational School',
     icon: web,
@@ -168,25 +186,17 @@ const educations = [
 
 const experiences = [
   {
-    title: 'Production Worker',
-    company_name: 'Elonen Oy',
+    title: 'Front-end Developer',
+    company_name: 'Intunex Oy',
     icon: web,
     iconBg: '#383E56',
-    date: 'June 2015 - September 2015',
+    date: 'February 2024 - March 2025',
     points: [
-      'Quality control',
-      'Filling in waybills',
-      'Product storage',
-      'General bakery production tasks',
+      'Front‐end development of the Skillhive service using Ember, JavaScript, and CSS/SCSS',
+      'Integrated the front end with the Skillhive API',
+      'Utilized GitHub for version control',
+      'Agile workflow in a distributed team',
     ],
-  },
-  {
-    title: 'Forestry Worker',
-    company_name: 'City of Jyväskylä',
-    icon: web,
-    iconBg: '#383E56',
-    date: 'November 2021 - December 2021',
-    points: ['Stacking energy tree'],
   },
   {
     title: 'Lumberjack',
@@ -201,12 +211,33 @@ const experiences = [
     ],
   },
   {
+    title: 'Forestry Worker',
+    company_name: 'City of Jyväskylä',
+    icon: web,
+    iconBg: '#383E56',
+    date: 'November 2021 - December 2021',
+    points: ['Stacking energy tree'],
+  },
+  {
     title: 'A bricklayers apprentice',
     company_name: 'Tmi Kaihula',
     icon: web,
     iconBg: '#383E56',
     date: 'August 2017 - November 2017',
-    points: ['Mortar making', 'Stone cutting', 'cleaning of tools'],
+    points: ['Mortar making', 'Stone cutting', 'Cleaning of tools'],
+  },
+  {
+    title: 'Production Worker',
+    company_name: 'Elonen Oy',
+    icon: web,
+    iconBg: '#383E56',
+    date: 'June 2015 - September 2015',
+    points: [
+      'Quality control',
+      'Filling in waybills',
+      'Product storage',
+      'General bakery production tasks',
+    ],
   },
 ];
 
@@ -241,10 +272,10 @@ const projects = [
   {
     name: 'Recipe App',
     description:
-      'Recipe application, which allows user to add, edit and delete own recipes. Developed with Angular, Node.js, Express and MongoDB.',
+      'Recipe application, which allows user to add, edit and delete own recipes. Developed with React, Node.js, Express and MongoDB.',
     tags: [
       {
-        name: 'angular',
+        name: 'react',
         color: 'blue-text-gradient',
       },
       {
@@ -257,7 +288,41 @@ const projects = [
       },
     ],
     image: recipe,
-    source_code_link: 'https://recipe-app2023.web.app/login',
+    source_code_link: 'https://react-recipe-app-2025.netlify.app/',
+  },
+  {
+    name: 'Homepage',
+    description:
+      'Homepage where you can find information about me, my skills and my education/work history. Developed with React.',
+    tags: [
+      {
+        name: 'react',
+        color: 'blue-text-gradient',
+      },
+    ],
+    image: homepage,
+    source_code_link: 'https://heartfelt-cuchufli-86b88a.netlify.app/',
+  },
+  {
+    name: 'Memories App',
+    description:
+      'Application where you can add, edit and delete own memories. Developed with React, Node.js and Express.',
+    tags: [
+      {
+        name: 'react',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'mongo',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'nodejs',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: memories_app,
+    source_code_link: 'https://fanciful-croquembouche-a2302a.netlify.app/posts',
   },
 ];
 
