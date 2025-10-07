@@ -322,7 +322,7 @@ const projects = [
       },
     ],
     image: memories_app,
-    source_code_link: 'https://fanciful-croquembouche-a2302a.netlify.app/posts',
+    source_code_link: 'https://fanciful-croquembouche-a2302a.netlify.app/',
   },
 ];
 
